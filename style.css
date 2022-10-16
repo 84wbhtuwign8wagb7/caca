@@ -1,0 +1,110 @@
+
+}body {
+    font-size: 15pt;
+    ; 
+}
+
+html{
+ background-image: linear-gradient(mediumpurple,
+     black);
+ background-repeat: no-repeat;
+ width: 0 auto;
+  font-size: 22px; 
+}
+
+
+/***********The Thumbnails*********/
+
+.Thumbnail{
+ padding: 0px;
+ margin: 0 0 0 0;
+ background: green;
+ width: 100%;
+ height: 115px;
+ border-radius: 8px;
+}
+
+
+
+.A{
+ background: url("https://media.discordapp.net/attachments/1011572251000324179/1030979140469391430/mqdefault.jpg");
+ background-size: 100% 115px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color: #151515;
+}
+
+.B {
+ background: url("https://media.discordapp.net/attachments/1011572251000324179/1031261584762355722/subway_surfer_icon.jpg");
+ background-size: 100% 115px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color: #151515;
+}
+
+.C{
+ background: url("https://media.discordapp.net/attachments/1011572251000324179/1031262961270005920/dude_theft_wars.png");
+ background-size: 150% 135px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color: #151515;
+}
+
+.D{
+ background: url("https://media.discordapp.net/attachments/1011572251000324179/1031261477316874350/blockcitywaricon.png");
+ background-size: 100% 115px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color: #151515;
+}
+
+/***********************************/
+
+.Title{
+ color: white;
+ position: relative; 
+ left: 10px; 
+ font-size: 25px;
+ top: 0px;
+ 
+}
+
+.Dwn{
+ background: #101010;
+ padding: 10px;
+ position: relative; 
+ right: -10px; 
+ color: white;
+ background: #202020;
+ top: -40px;
+ left: 80%;
+ border-radius: 80px;
+}
+
+.card {
+  background-color: #151515;
+  border-radius: 8px;
+  color: white;
+  padding: 0rem;
+  height: 180px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.cards {
+  max-width: 1200px;
+  display: grid;
+  grid-gap: 1rem;
+  padding: 2rem;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+
